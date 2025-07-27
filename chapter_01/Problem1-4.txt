@@ -1,0 +1,11 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "Hello" << "\n";
+    cout << "Today" << "\n";
+    cout << "You are C++ Programmer" << "\n";
+
+    return 0;
+}
