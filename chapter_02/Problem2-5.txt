@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Input the Integer -> ";
+    cin >> a;
+    cout << "absolute value -> " << abs(a);
+
+    return 0;
+}

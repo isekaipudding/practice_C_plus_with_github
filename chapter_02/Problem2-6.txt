@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+
+    cout << "Input one character -> ";
+    cin >> ch;
+    if('A' <= ch && ch <= 'Z') {
+        ch += 32;
+    }
+    cout << "Output -> " << ch;
+
+    return 0;
+}

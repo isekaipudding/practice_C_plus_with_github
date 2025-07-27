@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    a = 10; b = ++a;
+    cout << " a = " << a << "\t b = " << b << "\n";
+    a = 20; b = a++;
+    cout << " a = " << a << "\t b = " << b << "\n";
+    a = 30; b = --a;
+    cout << " a = " << a << "\t b = " << b << "\n";
+    a = 40; b = a--;
+    cout << " a = " << a << "\t b = " << b << "\n";
+
+    return 0;
+}
