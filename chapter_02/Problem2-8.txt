@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    double radius;
+    cout << "Input radius -> ";
+    cin >> radius;
+    cout << "Circumference of Circle -> " << 6.28 * radius;
+
+    return 0;
+}

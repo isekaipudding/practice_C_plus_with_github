@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+    cout << "Input Integer -> ";
+    cin >> n;
+    cout << "square of " << n << " -> " << n * n << '\n';
+    cout << "qubic of " << n << " -> " << n * n * n << '\n';
+
+    return 0;
+}

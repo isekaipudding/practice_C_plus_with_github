@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int price, count, pay;
+    cout << "one coffie price -> ";
+    cin >> price;
+    cout << "Input count -> ";
+    cin >> count;
+    cout << "Input your pay -> ";
+    cin >> pay;
+    int total = price * count;
+    cout << "Value Added Tax -> " << total / 10 << '\n';
+    cout << "Total -> " << total * 11 / 10 << '\n';
+    cout << "change -> "<< pay - total * 11 / 10 << '\n';
+
+    return 0;
+}
