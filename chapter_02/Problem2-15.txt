@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int cm;
+    cout << "Input height[cm] -> ";
+    cin >> cm;
+    int inch = (int)(cm / 2.54);
+    cout << cm << "[cm] is " << inch / 12 << " feet " << inch % 12 << " inch";
+
+    return 0;
+}

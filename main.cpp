@@ -3,10 +3,6 @@
 using namespace std;
 
 int main() {
-    char ch;
-    cout << "Input one alphabet -> ";
-    cin >> ch;
-    cout << static_cast<char>(ch + 1);
 
     return 0;
 }

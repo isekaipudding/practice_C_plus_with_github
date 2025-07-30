@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Input natural number less than 10000 -> ";
+    cin >> number;
+    int temp = 1000;
+    while(temp > 0) {
+        cout << temp << "'s dight -> " << number / temp << '\n';
+        number -= temp * (number / temp);
+        temp /= 10;
+    }
+
+    return 0;
+}

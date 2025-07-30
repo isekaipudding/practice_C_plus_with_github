@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int feet, inch;
+    cout << "Input feet -> ";
+    cin >> feet;
+    cout << "Input inch -> ";
+    cin >> inch;
+    double cm = (12 * feet + inch) * (double)254 / 100;
+    cout << feet << " feet " << inch << " inch is " << cm << "cm";
+
+    return 0;
+}

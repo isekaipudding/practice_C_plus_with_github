@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int C_TEMP;
+    cout << "Input Celsius Temperature -> ";
+    cin >> C_TEMP;
+    cout << "Celsius Temperature " << C_TEMP << "['C] is " << C_TEMP * 1.8 + 32 << "['F]" << '\n';
+
+    int F_TEMP;
+    cout << "Input Fahrenheit Temperature -> ";
+    cin >> F_TEMP;
+    cout << "Fahrenheit Temperature " << F_TEMP << "['F] is " << (F_TEMP - 32) * 5.0 / 9 << "['C]";
+
+    return 0;
+}
