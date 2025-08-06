@@ -1,0 +1,70 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "\n a. \n";
+    int i = 0;
+    do {
+        i++;
+        if(i % 2 == 0){
+            continue;
+        }
+        cout << '\t' << i;
+    } while(i < 10);
+
+    cout << "\n b. \n";
+    int n;
+    n = 4;
+    while(n)
+        cout << '\t' << n--;
+    n-=3;
+    while(n)
+        cout << '\t' << n++;
+
+    cout << "\n c. \n";
+    int tot = 0;
+    n = 0;
+    while(n <= 8) {
+        n += 2;
+        tot += n;
+    }
+    cout << "\t tot = " << tot << '\n';
+
+    cout << "\n d. \n";
+    int old = 1;
+    int cur = 1;
+    int next;
+    while(cur < 100) {
+        cout << '\t' << cur;
+        next = cur + old;
+        old = cur;
+        cur = next;
+    }
+    cout << '\n';
+
+    cout << "\n e. \n";
+    int a;
+    int b;
+    for(a = 1; a <= 5; a++) {
+        cout << "* ";
+    }
+    cout << "\n";
+
+    cout << "\n f. \n";
+    a = 0;
+    b = 0;
+    do {
+        ++a;
+        b += a;
+    } while(a < 50);
+    cout << "\t a = " << a << "\t b = " << b << '\n';
+
+    cout << "\n g. \n";
+    for(n = 100; n > 0; n++) {
+        if(n % 13 == 0) break;
+    }
+    cout << "\t n = " << n << '\n';
+
+    return 0;
+}

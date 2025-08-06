@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i;
+    cout << "\n a. \n";
+    i = 10;
+    while(i >= 0) {
+        cout << '\t' << i;
+        i--;
+    }
+
+    cout << "\n b. \n";
+    i = 0;
+    while(i <= 100) {
+        if(i % 5 == 0)
+            cout << '\t' << i;
+        i+=3;
+    }
+
+    return 0;
+}

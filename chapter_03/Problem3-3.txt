@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int i;
+    cout << "\n a. \n";
+    for(i = 2; i < 10; i+=3);
+    cout << '\t' << i << '\n';
+
+    cout << "\n b. \n";
+    for(i = 12; i <= 2; i-=3);
+    cout << '\t' << i << '\n';
+
+    return 0;
+}
