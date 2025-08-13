@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    
+    cout << "Input one character";
+    cin >> ch;
+
+    if(ch == 'A' || ch == 'a') {
+        cout << "American";
+    } else if (ch == 'B' || ch == 'b') {
+        cout << "Britain";
+    } else if (ch == 'C' || ch == 'c') {
+        cout << "Canada";
+    } else if (ch == 'J' || ch == 'j') {
+        cout << "Japan";
+    } else {
+        cout << "The Others";
+    }
+
+    return 0;
+}

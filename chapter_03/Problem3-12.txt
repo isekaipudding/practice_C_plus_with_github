@@ -1,0 +1,31 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+    int a, b;
+    string op;
+
+    cout << "Choose one operation(+, -, *, /) -> ";
+    cin >> op;
+
+    cout << "Input two Integers with one operation(Example : 3 + 4) -> ";
+    cin >> a >> op >> b;
+
+    if(op == "+") {
+        cout << a + b;
+    } else if(op == "-") {
+        cout << a - b;
+    } else if(op == "*") {
+        cout << a * b;
+    } else if(op == "/") {
+        if(b != 0) {
+            cout << a / b;
+        } else {
+            cout << "Impossible a / 0";
+        }
+    }
+
+    return 0;
+}
