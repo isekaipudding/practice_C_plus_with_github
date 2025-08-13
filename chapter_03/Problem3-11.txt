@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    char ch;
+    cout << "Input one character -> ";
+    cin >> ch;
+
+    if('0' <= ch && ch <= '9') cout << "Integer character";
+    else if('A' <= ch && ch <= 'Z') cout << "Alphabet character";
+    else if('a' <= ch && ch <= 'z') cout << "Alphabet character";
+    else cout << "Other character";
+
+    return 0;
+}
