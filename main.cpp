@@ -3,15 +3,6 @@
 using namespace std;
 
 int main() {
-    for(int i = 1; i <= 10; i++) {
-        int number = 2 * i - 1;
-        cout << '\t';
-        if(i & 1) {
-            cout << -number;
-        } else {
-            cout << number;
-        }
-    }
 
     return 0;
 }

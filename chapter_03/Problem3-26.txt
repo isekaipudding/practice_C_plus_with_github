@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "n" << '\t' << "n^2" << '\t' << "n^3" << '\n';
+    cout << "-----------------------------------" << '\n';
+
+    for(int i = 1; i <= 5; i++) {
+        cout << i << '\t' << i * i << '\t' << i * i * i << '\n';
+    }
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << "original price" << '\t' << "saled price" << '\n';
+    cout << "---------------------------------------" << '\n';
+    
+    for(int i = 10000; i <= 20000; i += 1000) {
+        cout << i << '\t' << '\t' << i * 7 / 10 << '\n';
+    }
+
+    return 0;
+}

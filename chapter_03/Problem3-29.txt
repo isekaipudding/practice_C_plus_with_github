@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int fact = 1;
+
+    for(int i = 1; i <= 10; i++) {
+        fact *= i;
+        cout << i << "!" << '\t' << " = " << fact <<'\n';
+    }
+
+    return 0;
+}
